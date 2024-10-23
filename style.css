@@ -1,0 +1,43 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+                                /* HEADER */    
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 24px;
+}
+.main-nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+}
+.main-nav ul li{
+    margin: 10px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main-nav ul li a:hover{
+border-bottom: 2px solid black;
+}
+.header-image-wrapper img{
+    width: 100%;
+}
+                                    /* MAIN-CONTENT */
+
+.ms-prduct-wrapper{
+    display: flex;
+
+
+}                                    
+.product-card{
+    width: 25%;
+    margin: 20px;
+    padding: 12px;
+}
+.product-card img{
+    width: 100%;
+}
