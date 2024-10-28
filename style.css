@@ -25,6 +25,19 @@ border-bottom: 2px solid black;
 }
 .header-image-wrapper img{
     width: 100%;
+    position: relative;
+}
+.copilot{
+    width: 35%;
+   position: absolute;
+   top: 35%;
+   left: 8%;
+}
+.copilot a{
+    background-color: #0067b8;
+    color: white;
+    padding: 2%;
+    text-decoration: none;
 }
                                     /* MAIN-CONTENT */
 
@@ -40,4 +53,28 @@ border-bottom: 2px solid black;
 }
 .product-card img{
     width: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.banner img{
+    width: 95%;
+
+}
+.one-note{
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+.one-note a{
+    background-color: #0067b8;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.business{
+    margin: 30px;
 }
